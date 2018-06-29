@@ -17,13 +17,14 @@
 #     result
 
 # end
- def prime?(num)
-    flag = true
-    for x in 2..num-1
-        if num % x == 0
-            flag = false
-        end
-    end
-    return flag
+ def is_prime(x):
+    if x < 2:
+        return False
+    else:
+        for n in range(2,x):
+            if x % n == 0:
+               return False
+        return True
+end
 end
 
