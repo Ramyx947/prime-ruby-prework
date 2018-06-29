@@ -17,7 +17,7 @@
 #     result
 
 # end
- def is_prime(x):
+ def prime?(x):
     if x < 2:
         return False
     else:
@@ -25,6 +25,6 @@
             if x % n == 0:
                return False
         return True
-
+end
 end
 
