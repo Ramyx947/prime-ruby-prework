@@ -1,5 +1,18 @@
 # Add  code here!
-def prime?(n)
-  if n>1? "true":"false"
-end
+def prime?(number)
+
+  result = nil
+
+  for index in 2..number-1
+
+    if number % index == 0
+      return result = false
+    else
+      result = true
+    end
+
+  end
+
+    result
+
 end
