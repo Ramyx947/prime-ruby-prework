@@ -1,21 +1,21 @@
 # Add  code here!
-# def prime?(number)
+def prime?(number)
 
-#   result = nil
+  result = nil
 
-#   for index in 2..number-1
+  for index in 2..number-1
 
-#     #if number % index == 0
-#       if number <= -1 || number % index == 0
-#       return result = false
-#     else
-#       result = true
-#     end
+    #if number % index == 0
+      if number <= -1 || number % index == 0
+      return result = false
+    else
+      result = true
+    end
 
-#   end
+  end
 
-#     result
+    result
 
-# end
+end
  
 
