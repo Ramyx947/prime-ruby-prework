@@ -24,9 +24,9 @@ i = 2
         while i < num
             is_divisible = ((num % i) == 0)
                 if is_divisible == false
-                    x = "#{num}: is NOT a prime number." #false
+                    x = "false" #false
                else
-                    x = "#{num}: is a prime number." #true
+                    x = "true" #true
                 end
 
             i +=1   
